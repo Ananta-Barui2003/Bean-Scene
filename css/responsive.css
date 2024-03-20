@@ -1,0 +1,564 @@
+/* ========================1280px start==================== */
+@media only screen and (max-width: 1280px) {
+    .coffe_style .coffe_blast {
+        top: -285px;
+        max-width: 430px;
+    }
+    .why_different .coffe_blast {
+        top: -150px;
+        max-width: 400px;
+    }
+    .feedback .blast_1 {
+        max-width: 430px;
+    }
+    .feedback .blast_2 {
+        bottom: -55px;
+        width: 430px;
+    }
+/* ========================1280px end==================== */
+}
+
+
+
+/* ========================1024px start========================= */
+@media only screen and (max-width: 1024px) {
+    .header .nav_bar .menu .menu_bar li {
+        padding-left: 40px;
+    }
+    .coffe_style {
+        margin-top: 200px;
+    }
+    .coffe_style .coffe_blast {
+        top: -220px;
+        max-width: 350px;
+    }
+    .why_different {
+        margin-top: 200px;
+    }
+    .why_different .coffe_blast {
+        top: -215px;
+        max-width: 350px;
+    }
+    .why_different .inner {
+        padding: 36px 15px;
+    }
+    .why_different .inner .detail h3 {
+        font-size: 25px;
+    }
+    .get_chance .coffe_bean {
+        max-width: 460px;
+    }
+    .feedback .blast_1 {
+        top: 30px;
+        width: 350px;
+    }
+    .feedback .blast_2 {
+        bottom: -30px;
+        width: 350px;
+    }
+    .feedback .main_slide .prev-arrow {
+        left: 6px;
+    }
+    .feedback .main_slide .next-arrow {
+        right: 6px;
+    }
+    .feedback .main_slide .review_box p::before {
+        top: -40px;
+        left: -80px;
+        font-size: 200px;
+    }
+    .footer {
+        padding-top: 200px;
+    }
+    .footer .wraper {
+        align-items: flex-start;
+    }
+    .footer .coffe-cup1, .footer .coffe-cup2 {
+        top: -150px;
+        width: 250px;
+    }
+/* ========================1024px start========================= */
+}
+
+
+/* ========================991px start========================= */
+@media only screen and (max-width: 991px) {
+    /* ================toggle-nav css================= */
+    #open-btn {
+        display: block;
+    }
+    .header .nav_bar .menu .menu_bar {
+        display: block;
+        position: fixed;
+        top: 109px;
+        left: -100%;
+        width: 100%;
+        height: 80%;
+        background: url(../images/toogle-nav-bg.jpg) no-repeat center;
+        background-size: cover;
+        text-align: center;
+        transition: 0.5s;
+        padding: 50px 50px;
+    }
+    .header .nav_bar .menu .menu_bar::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #683301cd;
+    }
+    .header .nav_bar .menu .menu_bar li {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    .header .nav_bar .menu .menu_bar li:last-child {
+        padding-bottom: 0;
+    }
+    .header .nav_bar .menu .menu_bar li a {
+        font-size: 18px;
+    }
+    /* ================toggle-nav css================= */
+
+    .banner .banner_img img {
+        height: 660px;
+    }
+    .banner .banner_cont h1 {
+        font-size: 170px;
+        line-height: 1.2;
+    }
+    .banner .banner_cont p {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    .discover {
+        margin-top: 50px;
+    }
+    .discover .left_inner h2 {
+        font-size: 45px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    .discover .left_inner p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .coffe_style {
+        margin-top: 160px;
+    }
+    .coffe_style .coffe_blast {
+        top: -165px;
+        max-width: 250px;
+    }
+    .coffe_style .titel h2 {
+        font-size: 45px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    .coffe_style .titel p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .coffe_style .wraper {
+        row-gap: 40px;
+    }
+    .why_different {
+        margin-top: 160px;
+    }
+    .why_different .coffe_blast {
+        top: -165px;
+        max-width: 250px;
+    }
+    .why_different .titel h2 {
+        font-size: 45px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    .why_different .titel p {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+    .why_different .wraper {
+        row-gap: 35px;
+    }
+    .why_different .bottom p {
+        font-size: 18px;
+    }
+    .get_chance .left_inner {
+        padding-right: 30px;
+    }
+    .get_chance .left_inner h2 {
+        font-size: 45px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    .get_chance .left_inner p {
+        font-size: 16px;
+        line-height: 1.4;
+        padding-bottom: 10px;
+        max-width: 410px;
+    }
+    .get_chance .coffe_bean {
+        max-width: 400px;
+    }
+    .get_chance {
+        margin-top: 50px;
+    }
+    .feedback {
+        margin-bottom: 20px;
+        margin-top: 45px;
+    }
+    .feedback .titel h2 {
+        font-size: 45px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    .feedback .titel p {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    .feedback .blast_1 {
+        top: 35px;
+        width: 250px;
+    }
+    .feedback .blast_2 {
+        bottom: 15px;
+        width: 250px;
+    }
+    .feedback .main_slide .inner {
+        padding-top: 50px;
+    }
+    .feedback .main_slide .review_box {
+        padding: 0 40px;
+    }
+    .feedback .main_slide .review_box p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .feedback .main_slide .review_box p::before {
+        font-size: 110px;
+        line-height: 80px;
+        left: -40px;
+    }
+    .feedback .main_slide .review_box h3 {
+        font-size: 26px;
+    }
+    .feedback .main_slide .review_box span {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .feedback .main_slide .user_img {
+        margin-bottom: -45px;
+        margin-top: 30px;
+    }
+    .feedback .main_slide .user_img img {
+        width: 95px;
+        height: 95px;
+    }
+    .feedback .main_slide .prev-arrow, .feedback .main_slide .next-arrow {
+        width: 52px;
+        height: 52px;
+    }
+    .latest_news {
+        padding: 50px 0;
+        padding-bottom: 150px;
+    }
+    .latest_news .titel h2 {
+        font-size: 45px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    .latest_news .titel p {
+        font-size: 17px;
+        line-height: 1.2;
+    }
+    .footer {
+        padding-top: 135px;
+        padding-bottom: 45px;
+    }
+    .footer .wraper {
+        row-gap: 30px;
+    }
+    .footer .foot_inner {
+        text-align: center;
+    }
+    .footer .foot_inner .logo {
+        max-width: 180px;
+        margin: 0 auto;
+    }
+    .footer .foot_inner .social_link {
+        justify-content: center;
+    }
+    .footer .foot_inner h3 {
+        margin-bottom: 20px;
+    }
+    .footer .foot_inner .foot_menu li a {
+        line-height: 35px;
+    }
+    .footer .foot_inner .adders {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    .footer .foot_inner .cont_detl li {
+        padding-bottom: 10px;
+    }
+    .footer .coffe-cup1, .footer .coffe-cup2 {
+        top: -140px;
+        width: 200px;
+    }
+/* ========================991px start========================= */
+}
+
+
+/* ========================767px start========================= */
+@media only screen and (max-width: 767px) {
+    .header .nav_bar .logo {
+        max-width: 170px;
+    }
+    .header .nav_bar .sign_btn a:first-child {
+        padding-right: 20px;
+    }
+    .header .nav_bar .sign_btn a:last-child {
+        padding: 10px 22px;
+    }
+    .banner .banner_img img {
+        height: 500px;
+    }
+    .banner .banner_cont h4 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .banner .banner_cont h1 {
+        font-size: 130px;
+    }
+    .banner .banner_cont p {
+        font-size: 16px;
+        padding-bottom: 25px;
+        margin: 0;
+    }
+    .discover .left_inner {
+        text-align: center;
+        padding-right: 0;
+    }
+    .discover .left_inner h2 {
+        font-size: 35px;
+    }
+    .discover .right_inner img {
+        height: 350px;
+        object-fit: contain;
+    }
+    .coffe_style {
+        margin-top: 70px;
+    }
+    .coffe_style .wraper {
+        row-gap: 50px;
+    }
+    .coffe_style .titel h2 {
+        font-size: 35px;
+    }
+    .why_different {
+        margin-top: 120px;
+    }
+    .why_different .titel h2 {
+        font-size: 35px;
+    }
+    .get_chance .wraper {
+        row-gap: 35px;
+    }
+    .get_chance .left_inner {
+        text-align: center;
+        padding-right: 0;
+    }
+    .get_chance .left_inner h2 {
+        font-size: 35px;
+    }
+    .get_chance .left_inner p {
+        margin: 0 auto;
+        padding-bottom: 25px;
+    }
+    .get_chance .right_inner img {
+        height: 400px;
+        object-fit: contain;
+    }
+    .feedback .titel h2 {
+        font-size: 35px;
+    }
+    .feedback .blast_1 {
+        top: 20px;
+    }
+    .latest_news {
+        padding-bottom: 145px;
+    }
+    .latest_news .titel h2 {
+        font-size: 35px;
+    }
+    .latest_news .form input {
+        height: 55px;
+    }
+    .latest_news .form button {
+        font-size: 16px;
+        line-height: 24px;
+        height: 55px;
+    }
+    .footer {
+        padding-top: 100px;
+    }
+    .footer .coffe-cup1, .footer .coffe-cup2 {
+        top: -135px;
+    }
+/* ========================767px start========================= */
+}
+
+
+/* ========================575px start========================= */
+@media only screen and (max-width: 575px) {
+    .header .nav_bar .sign_btn a:last-child {
+        padding: 6px 18px;
+    }
+/* ========================575px start========================= */
+}
+
+
+/* ========================480px start========================= */
+@media only screen and (max-width: 480px) {
+    .header .nav_bar .logo {
+        max-width: 140px;
+    }
+    .header .nav_bar .menu .menu_bar {
+        top: 90px;
+    }
+    .header .nav_bar .sign_btn .sign-up {
+        display: none;
+    }
+    .banner .banner_img img {
+        height: 420px;
+    }
+    .banner .banner_img::before {
+        background: linear-gradient(1deg, #1E1E1E -6.88%, rgba(0, 0, 0, 0.00) 87.45%);
+    }
+    .banner .banner_cont h1 {
+        font-size: 75px;
+    }
+    .banner .banner_cont h4 {
+        font-size: 17px;
+    }
+    .banner .banner_cont p {
+        font-size: 15px;
+    }
+    .discover {
+        margin-top: 45px;
+    }
+    .discover .left_inner h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .discover .left_inner p {
+        margin-bottom: 25px;
+    }
+    .discover .right_inner img {
+        height: auto;
+    }
+    .coffe_style .coffe_blast {
+        top: -145px;
+        max-width: 200px;
+        z-index: 1;
+    }
+    .coffe_style .titel h2 {
+        font-size: 28px
+    }
+    .why_different .coffe_blast {
+        top: -140px;
+        max-width: 200px;
+    }
+    .why_different .titel h2 {
+        font-size: 28px;
+    }
+    .why_different .inner .icon img {
+        width: 75px;
+        height: 75px;
+    }
+    .why_different .inner .detail h3 {
+        font-size: 22px;
+    }
+    .why_different .inner .detail p {
+        font-size: 18px;
+    }
+    .why_different .bottom h3 {
+        font-size: 28px;
+    }
+    .get_chance .left_inner h2 {
+        font-size: 28px;
+    }
+    .feedback .blast_1 {
+        top: 60px;
+        width: 180px;
+    }
+    .feedback .blast_2 {
+        bottom: 52px;
+        width: 150px;
+    }
+    .feedback .titel h2 {
+        font-size: 28px;
+    }
+    .feedback .main_slide .review_box {
+        padding: 0 20px;
+    }
+    .feedback .main_slide .review_box p {
+        margin-bottom: 20px;
+    }
+    .feedback .main_slide .review_box p::before {
+        font-size: 80px;
+        line-height: 80px;
+        left: -10px;
+    }
+    .feedback .main_slide .review_box h3 {
+        font-size: 22px;
+    }
+    .feedback .main_slide .review_box span {
+        font-size: 15px;
+    }
+    .latest_news {
+        padding-bottom: 120px;
+    }
+    .latest_news .titel h2 {
+        font-size: 28px;
+    }
+    .latest_news .titel p {
+        font-size: 16px;
+    }
+    .latest_news .form {
+        text-align: center;
+    }
+    .latest_news .form button {
+        position: relative;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .footer {
+        padding-top: 80px;
+    }
+    .footer .coffe-cup1, .footer .coffe-cup2 {
+        width: 130px;
+        top: -100px;
+    }
+    .footer .foot_inner h3 {
+        margin-bottom: 10px;
+        line-height: 1.2;
+    }
+    .footer .foot_inner .foot_menu li a {
+        font-size: 16px;
+        line-height: 26px;
+    }
+/* ========================480px start========================= */
+}
+
+
+/* ========================only 426px css================= */
+@media only screen and (max-width: 426px) {
+    .feedback .blast_1 {
+        top: 90px;
+        width: 180px;
+    }
+}
