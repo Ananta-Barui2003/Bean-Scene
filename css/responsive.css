@@ -90,13 +90,12 @@
     .header .nav_bar .menu .menu_bar {
         display: block;
         position: fixed;
-        top: 109px;
+        top: 0;
         left: -100%;
-        width: 100%;
-        height: 80%;
+        width: 80%;
+        height: 100%;
         background: url(../images/toogle-nav-bg.jpg) no-repeat center;
         background-size: cover;
-        text-align: center;
         transition: 0.5s;
         padding: 50px 50px;
     }
@@ -427,7 +426,7 @@
         max-width: 140px;
     }
     .header .nav_bar .menu .menu_bar {
-        top: 90px;
+        top: 0;
     }
     .header .nav_bar .sign_btn .sign-up {
         display: none;
